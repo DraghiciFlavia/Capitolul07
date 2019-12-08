@@ -1,0 +1,6 @@
+﻿  BecReglabil.cpp
+  Candelabru.cpp
+  Douaclase.cpp
+  Generating Code...
+E:\GitHub\Capitolul07\Douaclase\Douaclase\Candelabru.cpp(60): warning C4715: 'Candelabru::StareCandelabru': not all control paths return a value
+  Douaclase.vcxproj -> E:\GitHub\Capitolul07\Douaclase\Debug\Douaclase.exe
