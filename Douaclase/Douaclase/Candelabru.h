@@ -7,6 +7,7 @@ private:
 	BecReglabil* listaBecuri;
 
 public:
+	int GetPutereCurenta();
 	void ConfigureazaCandelabru(unsigned short nr);
 	void AprindeLumina();
 	void StingeLumina();

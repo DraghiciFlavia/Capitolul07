@@ -1,7 +1,4 @@
 #include "Candelabru.h"
-#include "BecReglabil.h"
-#include <iostream>
-
 
 void Candelabru::ConfigureazaCandelabru(unsigned short nr)
 {
@@ -43,11 +40,17 @@ void Candelabru::ReduceLumina(unsigned short reduce)
 		listaBecuri[i].ReduceLumina(reduce);
 	}
 }
+int GetPutereCurenta()
+{
+	return listaBecuri[i].SetPutereMaxima(100);
+}
 unsigned short Candelabru::PutereMaximaCandelabru()
 {
 	unsigned short sum = 0;
 	for (int i = 0; i < nrBecuri; ++i)
-		sum += listaBecuri[i].GetPutereMaxima();
+	{
+		sum = sum + listaBecuri[i].GetPutereMaxima();
+	}
 	return (sum);
 }
 bool Candelabru::StareCandelabru()
